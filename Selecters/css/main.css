@@ -1,0 +1,16 @@
+/* This is my css file */
+body{
+    background-color: lightgreen;
+} 
+h1, h2, h3, h4, h5, h6{
+    color: red;
+    text-align: center;
+}
+.wrapper{ 
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 5%;
+}
+

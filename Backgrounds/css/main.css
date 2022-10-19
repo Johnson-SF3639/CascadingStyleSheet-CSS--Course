@@ -1,0 +1,16 @@
+/* This is my css file */
+body{
+    background-image: url('../img/flower.jpg');
+    background-repeat: no-repeat;
+}
+.wrapper{
+    background-color: rgb(121, 240, 119);
+}
+h1{
+    color: blue;
+    font-size: 30px;
+}
+p{
+    color: red;
+    background-color: antiquewhite;
+}

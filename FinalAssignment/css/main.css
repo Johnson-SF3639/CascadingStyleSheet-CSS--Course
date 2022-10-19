@@ -1,0 +1,110 @@
+/* This is my css file */
+
+body{
+    background-color: rgb(125, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.box{
+    width: 58%;
+    height: 450px;
+    margin: 70px auto;
+}
+
+.box .col1{
+    float: left;
+    padding: 5%;
+    width: 40%;
+    height: 360px;
+    background-color: rgb(153, 66, 66);
+    margin-right: 30px;
+}
+
+.box .col1 h1,h3{
+    color: rgb(255, 255, 255);
+}
+
+.box .col1 .btn1, .btn2, .btn3{
+    text-align: left;
+    width: 100%;
+    padding: 3%;
+    color: white;
+}
+.box .col1 .buttongrp{
+    line-height: 10px;
+}
+
+.box .col1 .btn1{
+    background-color: rgb(60, 60, 223);
+    border-color:  rgb(60, 60, 223);
+}
+
+.box .col1 .btn2{
+    background-color: rgb(222, 40, 40);
+    border-color: rgb(222, 40, 40);
+
+}
+
+.box .col1 .btn3{
+    background-color: rgb(0, 153, 255);
+    border-color: rgb(0, 153, 255);
+}
+
+.box .col2 h3{
+    color: rgb(0, 0, 0);
+}
+
+.box .col2{
+    height: 360px;
+    padding: 5%;
+    padding-left: 5%;
+    background-color: white;
+}
+
+.box p{
+    color: brown;  
+    font-size: 13px;  
+}
+
+.box a{
+    text-decoration: none;  
+}
+
+.box  .textbox{
+    padding: 1% ;
+    width: 40%;  
+}
+
+.box .col2 button{
+    padding: 10px; 
+    width: 12%;
+    color: white;
+    background-color: rgb(255, 58, 58);
+    border-color: rgb(255, 58, 58);
+    border-radius: 2px;
+}
+
+.footertext{
+    color: rgb(184, 2, 2);
+}
+
+.fa {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0px 2px ;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }

@@ -1,0 +1,15 @@
+/* This is my css file */
+h1{
+    color: red;
+}
+p{
+    text-align: center;
+}
+h1.text{
+    text-transform: uppercase;
+    color: blue;
+}
+p.text{
+    text-transform: capitalize;
+}
+ 

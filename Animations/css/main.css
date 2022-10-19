@@ -1,0 +1,111 @@
+/* This is my css file */
+body{
+    background-color: rgb(187, 249, 187);
+} 
+.spin1{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 3% auto;
+    animation: spin1 5s infinite;
+}
+.spin2{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 3% auto;
+    animation: spin2 5s linear infinite;
+}
+
+@-webkit-keyframes spin1{
+    0%{-webkit-transform : rotate(0deg);}
+    100%{-webkit-transform : rotate(360deg);}
+}
+@-webkit-keyframes spin2{
+    0%{-webkit-transform : rotate(0deg);}
+    100%{-webkit-transform : rotate(360deg);}
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+.wrapper{
+    background-color: white;
+    background-image: -webkit-linear-gradient(top,white,#333);
+    width: 100%;
+    height: 1000px;
+}
+.wrapper-left{ 
+    float: left;
+    margin: 10px 0px 10px 30px;
+    width:15%;
+    background-color: rgb(255, 66, 129);
+    padding: 1%;
+}
+.wrapper-right{ 
+    float: left;
+    margin: 10px 0px 30px 10px;
+    width: 75%;
+    background-color:rgb(188, 216, 245);
+    padding: 1%;
+}
+.wrapper-right img{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.main-col{
+    width: 95%;
+    padding: 1%;
+    background-color: bisque;
+    border-radius: 30px;
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar li a{
+    background: url(../img/Sprite.png) no-repeat;
+    display: block; 
+    width: 0px;
+    border-radius: 10px;
+    padding: 25px 80px 25px 80px;  
+    transition: all 0.2s ease-out; 
+}
+.nav-bar li.one a{
+    background-position: 0px -72px;
+    margin: 1%;
+}
+.one a:hover{
+    border-top-right-radius:50px ;
+    background-color: white;
+    width: 60%;
+}
+.nav-bar li.two a{
+    background-position: 0px -145px;
+    margin: 1%;
+}
+.two a:hover{
+    border-top-right-radius:50px ;
+    width: 60%;
+    background-color: white;
+}
+.nav-bar li.three a{
+    background-position: 0px -218px;
+    margin: 1%;
+}
+.three a:hover{
+    border-top-right-radius:50px ;
+    width: 60%;
+    background-color: white;
+}
+.nav-bar li.four a{
+    background-position: 0px 0px;
+    margin: 1%;
+}
+.four a:hover{
+    border-top-right-radius:50px ;
+    width: 60%;
+    background-color: white;
+}
+

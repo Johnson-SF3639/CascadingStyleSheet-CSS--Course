@@ -1,0 +1,36 @@
+/* This is my css file */
+body{
+    background-color: rgb(187, 249, 187);
+    font-family: 'Pacifico', cursive;
+    color: red;
+    font-size: 50px;
+} 
+@media screen and (max-width: 992px){
+    body{
+        background-color: rgb(255, 0, 0);
+        font-family: 'Pacifico', cursive;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+    } 
+}
+@media screen and (max-width: 680px){
+    body{
+        background-color: rgb(0, 47, 255);
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        color: red;
+    } 
+}
+@media screen and (max-width: 450px){
+    body{
+        background-color: rgb(0, 255, 255);
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    } 
+}
+@media screen and (max-width: 300px){
+    body{
+        display: none;
+    } 
+}

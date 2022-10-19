@@ -1,0 +1,38 @@
+/* This is my css file */
+body{
+    background-color: rgb(187, 249, 187);
+} 
+h1{
+    color: red;
+    text-align: center;
+}
+p::first-line{
+    font-size: 30px;
+}
+h1::first-letter{
+    color: orange;
+}
+.wrapper{
+    width: 100%;
+    height: 650px;
+    background-color:  rgb(243, 243, 243);
+}
+.wrapper:hover{
+    background-color: rgb(69, 27, 27);
+}
+.wrapper-left{ 
+    border-radius: 5%;
+    float: left;
+    margin: 10px 0px 10px 30px;
+    width:15%;
+    background-color: rgb(255, 66, 129);
+    padding: 1%;
+}
+.wrapper-right{ 
+    border-radius: 2%;
+    float: left;
+    margin: 10px 0px 30px 10px;
+    width: 75%;
+    background-color:rgb(188, 216, 245);
+    padding: 1%;
+}

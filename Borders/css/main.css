@@ -1,0 +1,27 @@
+/* This is my css file */
+body{
+    background-color: lightgreen;
+    margin: 0px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+.wrapper{
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin: 0px auto;
+    border-width: 10px;
+    border-style: solid ;
+    border-color: #333333;
+}
+
+
+.nextWrapper{
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin: 0px auto;
+    border: 10px dashed#333333;
+}

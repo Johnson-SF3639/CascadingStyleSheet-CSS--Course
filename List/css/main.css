@@ -1,0 +1,20 @@
+/* This is my css file */
+h1{
+    color: red;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+.wrapper a{
+    text-decoration: none;
+}
+.wrapper a:hover{
+    font-size: 30px;
+}
+.wrapper a:active{
+    text-decoration: none;
+    background-color: green;
+}

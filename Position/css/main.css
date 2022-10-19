@@ -1,0 +1,39 @@
+/* This is my css file */
+body{
+    background-color: rgb(187, 249, 187);
+} 
+h1{
+    color: red;
+    text-align: center;
+}
+
+.wrapper1{ 
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    padding: 1%;
+}
+
+.wrapper2{ 
+    position: absolute;
+    top: 250px;
+    right: 30px;
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    margin: 1px auto;
+    padding: 1%;
+}
+
+.wrapper3{ 
+    position: fixed;
+    bottom: 10px;
+    width: auto;
+    background-color: white;
+    margin: 1px auto;
+    padding: 1%;
+}
+

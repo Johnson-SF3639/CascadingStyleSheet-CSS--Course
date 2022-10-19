@@ -1,0 +1,25 @@
+/* This is my css file */
+body{
+    background-color: lightgreen;
+    text-align: center;
+    color: red;
+}
+.wrapper{
+    width: 80%; 
+    margin: 10px auto;
+    height: 400px;
+    background-color: white;
+    padding: 1%;
+}
+.wrapper h1{
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #000;
+}
+.wrapper h2{
+    font-size: 50px;
+    text-shadow: 3px 2px 0px #000;
+}
+.wrapper h3{
+    font-size: 50px;
+    text-shadow:3px 3px 5px yellow, 3px 5px 3px #000;
+}
